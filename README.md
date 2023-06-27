@@ -1,8 +1,11 @@
 # This is a fork with specific configurations for internal use of typesense
 
 In order to run it, follow the tutorials at:
+
 https://typesense.org/guide/
+
 https://github.com/algolia/docsearch-scraper
+
 https://github.com/typesense/typesense-docsearch.js
 
 # Commands cheat sheet
