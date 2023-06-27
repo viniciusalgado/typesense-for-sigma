@@ -1,0 +1,25 @@
+.DS_Store
+crawling_data
+node_modules
+checker/node_modules
+.cache
+src/__pycache__/
+src/strategies/__pycache__/
+*.pyc
+.env
+.env.production
+update.sh
+typesense-logs/*
+typesense-server-0.24.1-amd64
+chrome-driver-linux/*
+
+*yarn.lock
+
+# IDE Files
+.idea/
+*.iml
+geckodriver.log
+.vscode/
+
+configs/private
+/typesense-server-data/

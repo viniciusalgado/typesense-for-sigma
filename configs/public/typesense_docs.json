@@ -1,0 +1,30 @@
+{
+  "index_name": "typesense_docs-test",
+  "start_urls": [
+    {
+      "url": "https://typesense.org/docs/(?P<version>.*?)/",
+      "variables": {
+        "version": [
+          "0.21.0"
+        ]
+      }
+    }
+  ],
+  "selectors": {
+    "default": {
+      "lvl0": ".content__default h1",
+      "lvl1": ".content__default h2",
+      "lvl2": ".content__default h3",
+      "lvl3": ".content__default h4",
+      "lvl4": ".content__default h5",
+      "text": ".content__default p, .content__default ul li, .content__default table tbody tr"
+    }
+  },
+  "scrape_start_urls": false,
+  "strip_chars": " .,;:#",
+  "nb_hits": 505,
+  "custom_settings": {
+    "token_separators": ["_"],
+    "symbols_to_index": ["*"]
+  }
+}
